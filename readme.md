@@ -42,3 +42,7 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
+
+## Diagrama Entidade-Relacionamento
+
+![Diagrama Entidade-Relacionamento](./docs/schema.png)
