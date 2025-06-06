@@ -12,7 +12,9 @@ Table Users {
 Table Posts {
   id integer [primary key, increment]
   user_id integer [ref: > Users.id, not null]
+  title varchar(80) [not null]
   content text [not null]
+  draft bool [default: true]
   created_at datetime
   updated_at datetime
 }
