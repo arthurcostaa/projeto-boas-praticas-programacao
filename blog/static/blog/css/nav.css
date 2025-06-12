@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px;
+    background-color: burlywood;
+    color: #FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    height: 30px;
+    align-items: center;
+}
+
+.secao-navbar
+{
+    display:flex;
+}
+
+.secao-navbar li
+{
+  padding: 0px 10px 0px 10px;
+}
+
+.secao-navbar a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.secao-navbar a:hover
+{
+    border-bottom: 3px solid #FFFFFF;
+}

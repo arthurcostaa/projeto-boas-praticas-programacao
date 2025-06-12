@@ -1,0 +1,109 @@
+main
+{
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+#criar-publicao
+{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-criar-publicacao
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa-criar-publicacao h2
+{
+    border-left: 5px solid burlywood;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+
+.texto-criar-publicacao
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 99%;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+
+
+.texto-criar-publicacao::placeholder
+{
+    top: 15px;
+    position: absolute;
+}
+
+#caixa-botao-publicar
+{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 10px;
+}
+
+.botao-publicar
+{
+  width: 100px;
+  height: 30px;
+  color: #FFFFFF;
+  background-color: burlywood;
+  border-radius: 5px;
+  border-color: burlywood;
+  cursor: pointer;
+}
+
+
+#lista-de-publicacoes
+{
+   text-align: justify;
+   background-color: #FFFFFF;
+   padding: 15px;
+   border: 5px solid burlywood;
+   border-radius: 30px;
+}
+
+#publicacao
+{
+    padding: 15px;
+    border: 5px solid burlywood;
+    margin: 10px 0px 10px 0px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+
+.editar-publicacao
+{
+    width: 100%;
+    display: flex;
+
+}
+
+.botao-editar, .botao-deletar
+{
+    width: 60px;
+    height: 30px;
+    background-color: burlywood;
+    margin: 20px 0px 0px 0px;
+    color: #FFFFFF;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+}
+

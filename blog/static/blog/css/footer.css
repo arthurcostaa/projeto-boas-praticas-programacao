@@ -1,0 +1,43 @@
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 21px;
+    background-color: burlywood;
+    color: #FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#itens-do-footer ul
+{
+    padding: 0px 10px 0px 10px;
+}
+
+#contatos li
+{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+#redes-sociais
+{
+    display: flex;
+    justify-content: right;
+}
+
+#redes-sociais li a
+{
+    padding: 0px 5px 0px 0px;
+    color: orange;
+}
+
+#redes-sociais img
+{
+    
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+}
