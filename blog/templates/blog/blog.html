@@ -1,0 +1,49 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block title %}Blog{% endblock title %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'blog/css/blog.css'%}">
+{% endblock css %}
+
+
+{% block content %}
+
+<body>
+
+    <main>
+        
+        <section id="criar-publicacao">
+
+            <div class="caixa-criar-publicacao">
+
+                <h2>Escreva sua publicação</h2>
+
+                <form class="area-texto-criar-publicacao">
+
+                    <textarea name="criapost" class="texto-criar-publicacao" placeholder="O que vamos publicar hoje?"></textarea>
+
+                    <div id="caixa-botao-publicar">
+
+                        <button type="submit" class="botao-publicar">Publicar</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+            
+        </section>
+
+        <ul id="lista-de-publicacoes"></ul>
+
+    </main>
+
+    <script src="{% static 'blog/assets/js/blog.js'%}"></script>
+
+</body>
+
+{% endblock content %}
+
